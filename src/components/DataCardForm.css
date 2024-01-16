@@ -1,0 +1,37 @@
+form {
+   display: flex;
+   flex-direction: column;
+   color: green;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+ }
+
+ label span {
+    margin-bottom: 0.2rem;
+    font-weight: bolde;
+    font-size: 1.5rem;
+ }
+
+
+
+input, select {
+    height: 3rem;
+    border: 1px solid green;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    color: green;
+    font-weight: bold;
+}
+.cardFormContainer {
+    width: 35%;
+}
+
+
